@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+
+.app {
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  margin: 50px auto;
+  max-width: 75%;
+}
+
+.votelist {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.votes {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.votelistdiv {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  align-self: stretch;
+}
+
+.buttondiv {
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
+}
+.controlbutton {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background:#F4F6F8;
+}
